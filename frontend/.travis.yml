@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "node"
+
+cache: npm
+
+script: npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  local_dir: dist
+  on:
+    branch: main
