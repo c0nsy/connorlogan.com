@@ -6,6 +6,7 @@
       <AboutSection />
       <WorkSection />
       <ProjectsSection />
+      <ContactSection />
     </div>
   </div>
 </template>
@@ -15,6 +16,7 @@ import ProfileHeader from "../modules/profile-header/ProfileHeader.vue";
 import AboutSection from "../modules/about/AboutSection.vue";
 import WorkSection from "../modules/work/WorkSection.vue";
 import ProjectsSection from "../modules/projects/ProjectsSection.vue";
+import ContactSection from "../modules/contact/ContactSection.vue";
 export default {
   name: "PageShell",
   components: {
@@ -23,6 +25,7 @@ export default {
     AboutSection,
     WorkSection,
     ProjectsSection,
+    ContactSection,
   },
 };
 </script>
